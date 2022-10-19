@@ -1,0 +1,11 @@
+http://auth.mysibsau.ru {
+  reverse_proxy auth_service:80
+}
+
+http://booking-classroom-backend.mysibsau.ru {
+  reverse_proxy booking_classroom_backend:80
+}
+
+http://booking-classroom.mysibsau.ru {
+  reverse_proxy booking_classroom_frontend:80
+}
