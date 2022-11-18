@@ -9,3 +9,7 @@ http://booking-classroom-backend.mysibsau.ru {
 http://booking-classroom.mysibsau.ru {
   reverse_proxy booking_classroom_frontend:80
 }
+
+http://calendar-backend.mysibsau.ru {
+  reverse_proxy calendar_mysibsau_backend:80
+}
