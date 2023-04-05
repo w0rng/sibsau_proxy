@@ -17,3 +17,7 @@ http://calendar-backend.mysibsau.ru {
 http://events-calendar.mysibsau.ru {
   reverse_proxy events_calendar_frontend:80
 }
+
+http://test.mysibsau.ru {
+  reverse_proxy events_calendar_frontend:80
+}
