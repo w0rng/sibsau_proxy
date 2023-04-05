@@ -13,3 +13,7 @@ http://booking-classroom.mysibsau.ru {
 http://calendar-backend.mysibsau.ru {
   reverse_proxy calendar_mysibsau_backend:80
 }
+
+http://events-calendar.mysibsau.ru {
+  reverse_proxy events_calendar_frontend:80
+}
